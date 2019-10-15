@@ -1,0 +1,12 @@
+{
+    "hydra":{
+        "serviceName": "productms",
+        "serviceIP": "",
+        "serviceType": "",
+        "servicePort": 3001,
+        "serviceDescription":"Product Microservice",
+        "redis":{
+            "url":"redis://localhost:6379/15"
+        }
+    }
+}
