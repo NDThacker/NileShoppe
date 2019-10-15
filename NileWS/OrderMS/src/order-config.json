@@ -1,0 +1,12 @@
+{
+    "hydra": {
+        "serviceName": "orderms",
+        "serviceIP": "",
+        "serviceType": "",
+        "servicePort": 3002,
+        "serviceDescription": "Order microservice",
+        "redis": {
+            "url": "redis://localhost:6379/15"
+        }
+    }
+}
