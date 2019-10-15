@@ -35,7 +35,7 @@ gulp.task('test', async () => {
 
 
 gulp.task('pre-coverage', function () {
-    return gulp.src(['**/*.js', '!gulpfile.js', '!node_modules/**'])
+    return gulp.src(['**/*.js', '!gulpfile.js', '!node_modules/**', '!src/model/**'])
         // Covering files
         .pipe(istanbul())
         // Force `require` to return covered files
